@@ -1,0 +1,23 @@
+# Данные задачи и большие вычислительные артефакты
+datasets/
+dense_artifacts/
+models/
+*.parquet
+*.npy
+*.pt
+*.bin
+*.safetensors
+
+# Файлы отправки на платформу
+answer.csv
+answer_*.csv
+
+# Локальные файлы Python и Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+.venv/
+
+validation_data/
